@@ -5,8 +5,18 @@ ul#menu_items a {
 div.c-virtual_list__scroll_container,
 div#footer_msgs,
 div.channel_header,
-div#menu_member_dm_input {
-	background-color: black;
+div#menu_member_dm_input,
+div#col_flex div,
+div#client_body::before {
+	background-color: black !important;
+}
+div#col_flex div.heading_row {
+	background-color: transparent;
+}
+input,
+select {
+	background-color: black !important;
+	color: white !important;
 }
 div.c-message_list__day_divider__label__pill,
 div#msg_input,
@@ -15,7 +25,9 @@ button.c-message_actions__button,
 div.monkey_scroll_wrapper,
 div#menu,
 div.menu_member_header,
-div.menu_member_header p {
+div.menu_member_header p,
+div#fs_modal_footer,
+div#fs_modal_header {
 	color: white !important;
 	background-color: #101010 !important;
 }
