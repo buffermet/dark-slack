@@ -7,8 +7,8 @@ Dark CSS theme for Slack workspaces
 ## Enable with console
 
 ```js
-link = document.createElement("link")
-link.rel = "stylesheet"
-link.href = "https://yungtravla.github.io/cdn/github.com/yungtravla/dark-slack/dark-theme.css"
-document.body.appendChild(link)
+link = document.createElement("link");
+link.rel = "stylesheet";
+link.href = "https://yungtravla.github.io/cdn/github.com/yungtravla/dark-slack/dark-theme.css";
+document.body.appendChild(link);
 ```
