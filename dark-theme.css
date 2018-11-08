@@ -14,7 +14,9 @@ div#col_flex div.heading_row {
 	background-color: transparent;
 }
 input,
-select {
+select,
+div.c-scrollbar__hider,
+div#threads_msgs_scroller_div {
 	background-color: black !important;
 	color: white !important;
 }
@@ -35,7 +37,9 @@ pre.c-mrkdwn__pre {
 	background-color: #0a0a0a !important;
 	color: white !important;
 }
-button.c-message_actions__button:hover {
+button.c-message_actions__button:hover,
+div.modal,
+div.modal-footer {
 	background-color: #0a0a0a !important;
 }
 button#primary_file_button,
@@ -57,7 +61,8 @@ span.c-message__body {
 a.c-message__sender_link,
 button#edit_topic_trigger,
 .blue_on_hover:hover,
-.search_input_wrapper {
+.search_input_wrapper,
+button.c-deprecated_button--link {
 	color: #95ff00 !important;
 }
 div.c-message_list__unread_divider--ghost {
@@ -66,7 +71,9 @@ div.c-message_list__unread_divider--ghost {
 hr.c-message_list__unread_divider__separator {
 	border-color: #95ff00 !important;
 }
-span.c-message_list__unread_divider__label {
+span.c-message_list__unread_divider__label,
+a.c-member_slug,
+span.c-member_slug {
 	background: #101010 !important;
 	color: #95ff00 !important;
 }
