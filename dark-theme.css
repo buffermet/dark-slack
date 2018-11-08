@@ -15,6 +15,7 @@ div#col_flex div.heading_row {
 }
 input,
 select,
+textarea,
 div.c-scrollbar__hider,
 div#threads_msgs_scroller_div {
 	background-color: black !important;
@@ -29,7 +30,9 @@ div#menu,
 div.menu_member_header,
 div.menu_member_header p,
 div#fs_modal_footer,
-div#fs_modal_header {
+div#fs_modal_header,
+div.global_notification_block,
+button.btn_basic:hover {
 	color: white !important;
 	background-color: #101010 !important;
 }
@@ -48,7 +51,9 @@ div.tab_complete_ui_header,
 div.c-menu,
 div.c-menu div,
 div.c-menu div h3,
-div.c-menu div input {
+div.c-menu div input,
+div.ReactModal__Content div,
+div.ReactModal__Content footer {
 	background-color: #101010 !important;
 }
 button.p-emoji_picker__group_tab--active,
