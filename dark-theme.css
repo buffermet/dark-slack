@@ -1,0 +1,74 @@
+span.menu_item_label {
+	color: white !important;
+}
+div.c-virtual_list__scroll_container,
+div#footer_msgs,
+div.channel_header {
+	background-color: black;
+}
+div.c-message_list__day_divider__label__pill,
+div#msg_input,
+div.c-message--hover,
+button.c-message_actions__button,
+div.monkey_scroll_wrapper {
+	color: white !important;
+	background-color: #101010 !important;
+}
+pre.c-mrkdwn__pre {
+	background-color: #0a0a0a !important;
+	color: white !important;
+}
+button.c-message_actions__button:hover {
+	background-color: #0a0a0a !important;
+}
+button#primary_file_button,
+div.tab_complete_ui,
+div.tab_complete_ui_header,
+div.c-menu,
+div.c-menu div,
+div.c-menu div h3,
+div.c-menu div input {
+	background-color: #101010 !important;
+}
+button.p-emoji_picker__group_tab--active,
+section.slack_menu_download {
+	background-color: #222 !important;
+}
+span.c-message__body {
+	color: #AAA;
+}
+a.c-message__sender_link,
+button#edit_topic_trigger,
+.blue_on_hover:hover,
+.search_input_wrapper {
+	color: #95ff00 !important;
+}
+div.c-message_list__unread_divider--ghost {
+	background: #95ff00 !important;
+}
+hr.c-message_list__unread_divider__separator {
+	border-color: #95ff00 !important;
+}
+span.c-message_list__unread_divider__label {
+	background: #101010 !important;
+	color: #95ff00 !important;
+}
+div.c-scrollbar__hider::before,
+span#channel_topic_text,
+div.ql-editor,
+div.p-degraded_list__loading,
+div#fs_modal,
+input#im_browser_filter {
+	background: black !important;
+}
+div.ql-placeholder {
+	color:white !important;
+}
+span#edit_topic_inner::before {
+	background: black !important;
+	border-color: #333 !important;
+}
+div.c-message_actions__container {
+	border-color: rgba(0,0,0,0.3);
+	background: #101010;
+}
