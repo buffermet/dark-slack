@@ -1,16 +1,21 @@
-span.menu_item_label {
+span.menu_item_label,
+ul#menu_items a {
 	color: white !important;
 }
 div.c-virtual_list__scroll_container,
 div#footer_msgs,
-div.channel_header {
+div.channel_header,
+div#menu_member_dm_input {
 	background-color: black;
 }
 div.c-message_list__day_divider__label__pill,
 div#msg_input,
 div.c-message--hover,
 button.c-message_actions__button,
-div.monkey_scroll_wrapper {
+div.monkey_scroll_wrapper,
+div#menu,
+div.menu_member_header,
+div.menu_member_header p {
 	color: white !important;
 	background-color: #101010 !important;
 }
