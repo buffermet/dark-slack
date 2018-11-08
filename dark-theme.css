@@ -7,11 +7,9 @@ div#footer_msgs,
 div.channel_header,
 div#menu_member_dm_input,
 div#col_flex div,
-div#client_body::before {
+div#client_body::before,
+div.viewer {
 	background-color: black !important;
-}
-div#col_flex div.heading_row {
-	background-color: transparent;
 }
 input,
 select,
@@ -32,7 +30,8 @@ div.menu_member_header p,
 div#fs_modal_footer,
 div#fs_modal_header,
 div.global_notification_block,
-button.btn_basic:hover {
+button.btn_basic:hover,
+header.fs_modal_file_viewer_header {
 	color: white !important;
 	background-color: #101010 !important;
 }
@@ -58,7 +57,12 @@ div.ReactModal__Content footer {
 }
 button.p-emoji_picker__group_tab--active,
 section.slack_menu_download {
-	background-color: #222 !important;
+	background-color: #222222 !important;
+}
+button.c-button,
+button.btn_outline {
+	background: #222222 !important;
+	color: white !important;
 }
 span.c-message__body {
 	color: #AAA;
@@ -67,10 +71,11 @@ a.c-message__sender_link,
 button#edit_topic_trigger,
 .blue_on_hover:hover,
 .search_input_wrapper,
-button.c-deprecated_button--link {
+button.c-deprecated_button--link,
+button.sidebar_menu_list_item.is_active:hover {
 	color: #95ff00 !important;
 }
-div.c-message_list__unread_divider--ghost {
+div.c-message_list__unread_divider--ghost, {
 	background: #95ff00 !important;
 }
 ::selection {
@@ -79,6 +84,11 @@ div.c-message_list__unread_divider--ghost {
 }
 hr.c-message_list__unread_divider__separator {
 	border-color: #95ff00 !important;
+}
+button.sidebar_menu_list_item.is_active {
+	background-color: #95ff00;
+	border-color: #95ff00 !important;
+	color: black !important;
 }
 span.c-message_list__unread_divider__label,
 a.c-member_slug,
@@ -104,4 +114,12 @@ span#edit_topic_inner::before {
 div.c-message_actions__container {
 	border-color: rgba(0,0,0,0.3);
 	background: #101010;
+}
+button.p-emoji_picker__group_tab:hover {
+	background-color: #333 !important;
+}
+div#col_flex div.heading_row,
+div.p-custom_status_input__empty_emoji {
+	background-color: transparent !important;
+	background: transparent !important;
 }
