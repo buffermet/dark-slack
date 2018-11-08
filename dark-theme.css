@@ -73,6 +73,10 @@ button.c-deprecated_button--link {
 div.c-message_list__unread_divider--ghost {
 	background: #95ff00 !important;
 }
+::selection {
+	background-color: #95ff00 !important;
+	color: black !important;
+}
 hr.c-message_list__unread_divider__separator {
 	border-color: #95ff00 !important;
 }
